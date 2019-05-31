@@ -11,7 +11,7 @@ const countriesReducer = function(state = initialState, action) {
             return Object.assign({}, state, {countries: state.countries})
         default: 
             return state
-    }
+    };  
 }
 
 
